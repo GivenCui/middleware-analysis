@@ -1,0 +1,29 @@
+{
+  "name": "analys-middlewares",
+  "version": "1.0.0",
+  "description": "the middlewares analysis of koa, express, redux",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "express": "nodemon --inspect tests/express.js",
+    "redux": "nodemon --inspect tests/redux.js",
+    "koa": "nodemon --inspect tests/koa.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GivenCui/middleware-analysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "array-flatten": "^2.1.1",
+    "debug": "^3.1.0",
+    "delegates": "^1.0.0",
+    "express": "^4.16.3",
+    "koa": "^2.5.2",
+    "merge-descriptors": "^1.0.1",
+    "redux": "^4.0.0"
+  }
+}
